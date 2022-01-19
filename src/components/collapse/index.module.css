@@ -35,13 +35,13 @@
 }
 
 .collapse-inner {
-  height: 80px;
+  height: 90px;
   transition: all 0.5s;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  overflow: hidden;
 }
 .collapse.off > .collapse-inner {
   height: 0px;
-  overflow: hidden;
 }

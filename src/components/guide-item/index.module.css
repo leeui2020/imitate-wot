@@ -1,0 +1,23 @@
+.item {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.desc {
+  height: 60px;
+  margin-right: 10px;
+}
+
+.mark {
+  color: #e3e3e3;
+  text-decoration: none;
+  font-size: 12px;
+  padding: 2px 8px;
+  background: #394559;
+  display: inline-block;
+  height: 16px;
+  line-height: 16px;
+  border-radius: 4px;
+  margin-top: 4px;
+}
