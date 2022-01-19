@@ -1,0 +1,28 @@
+.header {
+  --height-header: 48px;
+
+  height: var(--height-header);
+  background: #000;
+  color: #fff;
+  padding: 0 50px;
+}
+
+.header > .inner {
+  height: var(--height-header);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 32px;
+  display: inline-block;
+}
+.logo > img {
+  height: 100%;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+}
