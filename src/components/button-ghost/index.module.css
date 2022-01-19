@@ -1,0 +1,19 @@
+.button {
+  --height-button: 26px;
+  --color: #fff;
+
+  font-size: 14px;
+  width: 100px;
+  height: var(--height-button);
+  line-height: var(--height-button);
+  display: inline-block;
+  text-align: center;
+  border: 1px solid var(--color);
+  border-radius: 4px;
+  color: var(--color);
+  cursor: pointer;
+}
+
+.button-color-primary {
+  --color: var(--color-primary);
+}

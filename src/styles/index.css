@@ -1,5 +1,6 @@
 body {
     --min-width-frame: 1000px;
+    --color-primary: #ffa657;
     margin: 0;
     min-width: calc(var(--min-width-frame) + 100px);
 }
