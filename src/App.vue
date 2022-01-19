@@ -1,6 +1,7 @@
 <template>
   <div>
     <app-header />
+    <app-collapse />
   </div>
 </template>
 
