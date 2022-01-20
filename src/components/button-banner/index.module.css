@@ -1,0 +1,14 @@
+.button {
+  --rate: calc(229 / 74);
+  --height: 50px;
+  --width: calc(var(--rate) * var(--height));
+
+  width: var(--width);
+  height: var(--height);
+  display: inline-flex;
+  background-size: 100% 100%;
+  text-indent: -9999px;
+}
+.button:hover {
+  filter: brightness(1.2);
+}
