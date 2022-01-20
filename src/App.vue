@@ -23,6 +23,8 @@
       <app-button-large ico="download" text="游戏下载" />
       <app-button-large ico="home" text="进入官网" />
     </div>
+    <!-- 底部声明信息 -->
+    <app-footer />
   </div>
 </template>
 
