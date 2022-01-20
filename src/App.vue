@@ -15,6 +15,8 @@
         <app-button-banner :type="3" />
       </div>
     </div>
+    <!-- 视频banner -->
+    <app-swiper />
   </div>
 </template>
 
@@ -39,12 +41,15 @@ export default {
   padding-top: 56.25%;
   background-image: url("~@/assets/cover_bj.jpeg");
   background-size: 100% 100%;
+  position: relative;
 }
 .cover-buttons {
   left: 50%;
   bottom: 20%;
+  width: 100%;
   position: absolute;
   transform: translate(-50%, 50%);
+  text-align: center;
 }
 .cover-buttons > a:not(:last-child) {
   margin-right: 10px;

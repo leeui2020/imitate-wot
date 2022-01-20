@@ -1,0 +1,90 @@
+.swiper {
+  width: 100%;
+  padding-top: 56.3%;
+  position: relative;
+  background: #000;
+}
+
+.swiper-wrapper,
+.swiper-item,
+.swiper-item > video {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.swiper-item {
+  opacity: 1;
+  display: block;
+  transition: all 0.5s;
+}
+.swiper-item.hidden {
+  opacity: 0;
+  display: none;
+}
+
+.swiper-text {
+  left: 0;
+  width: 100%;
+  bottom: 32%;
+  position: absolute;
+  text-align: center;
+}
+.swiper-text > img {
+  height: 66px;
+}
+
+.swiper-dots {
+  left: 0;
+  width: 100%;
+  bottom: 15%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-dot {
+  height: 26px;
+  display: flex;
+  align-items: center;
+}
+.swiper-dot > div {
+  width: 18px;
+  height: 18px;
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  position: relative;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+.swiper-dot > div::before {
+  content: '';
+  top: 50%;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  visibility: hidden;
+}
+.swiper-dot:not(:last-child) {
+  margin-right: 10px;
+}
+.swiper-dot::after {
+  content: '';
+  height: 0px;
+  width: 100px;
+  margin-left: 10px;
+  border-top: 1px dashed #fff;
+}
+.swiper-dot:last-child::after {
+  display: none;
+}
+.swiper-dot.active > div::before,
+.swiper-dot > div:hover::before {
+  visibility: visible;
+}

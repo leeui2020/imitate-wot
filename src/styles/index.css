@@ -2,10 +2,10 @@ body {
     --min-width-frame: 1000px;
     --color-primary: #ffa657;
     margin: 0;
-    min-width: calc(var(--min-width-frame) + 100px);
 }
 
 .inner {
-    width: var(--min-width-frame);
+    max-width: var(--min-width-frame);
+    width: 100%;
     margin: 0 auto;
 }
