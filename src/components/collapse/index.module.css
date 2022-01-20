@@ -45,3 +45,6 @@
 .collapse.off > .collapse-inner {
   height: 0px;
 }
+.collapse-inner > span {
+  color: #aaa;
+}

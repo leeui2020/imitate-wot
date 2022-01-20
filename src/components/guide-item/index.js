@@ -20,12 +20,18 @@ export default Vue.extend({
   },
 
   render () {
-    const markNode = this.mark ? <a href="javascript:;" class={style.mark}>{this.mark}</a> : null
+    const markNode = this.mark ? (
+      <a href="javascript:;" class={style.mark}>
+        <span>{this.mark}</span>
+        <span class="icon-101"></span>
+      </a>
+    ) : null
+
     return (
       <div class={style.item}>
         <img class={style.desc} src={this.descIcon[this.desc]} />
         <div class={style.info}>
-          <div class={style.text}>{this.text}</div>
+          <a href="javascript:;" class={style.text}>{this.text}</a>
           {markNode}
         </div>
       </div>

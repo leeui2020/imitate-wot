@@ -12,6 +12,7 @@
   border-radius: 4px;
   color: var(--color);
   cursor: pointer;
+  text-decoration: none;
 }
 
 .button-color-primary {

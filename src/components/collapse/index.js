@@ -20,11 +20,11 @@ export default Vue.extend({
       <div class={[style.collapse, this.isOff && style.off]}>
         <div class={['inner', style['collapse-inner']]}>
           <app-guide-item desc={0} text="注册360账号" />
-          <span>$</span>
+          <span class="icon-100"></span>
           <app-guide-item desc={1} text="游戏下载" />
-          <span>$</span>
+          <span class="icon-100"></span>
           <app-guide-item desc={2} text="申请数据继承" mark="找回空中网账号" />
-          <span>$</span>
+          <span class="icon-100"></span>
           <app-guide-item desc={3} text="开启战斗" />
         </div>
         <div class={style['collapse-trigger']}>

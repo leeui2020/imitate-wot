@@ -9,7 +9,7 @@ export default Vue.extend({
 
   render () {
     return (
-      <a class={[style.button, style[`button-color-${this.color}`]]}>
+      <a href="javascript:;" class={[style.button, style[`button-color-${this.color}`]]}>
         <span>{this.text}</span>
       </a>
     )
