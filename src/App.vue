@@ -17,6 +17,12 @@
     </div>
     <!-- 视频banner -->
     <app-swiper />
+    <!-- 按钮区域 -->
+    <div class="buttons">
+      <app-button-large ico="user" text="账号注册" />
+      <app-button-large ico="download" text="游戏下载" />
+      <app-button-large ico="home" text="进入官网" />
+    </div>
   </div>
 </template>
 
@@ -53,5 +59,13 @@ export default {
 }
 .cover-buttons > a:not(:last-child) {
   margin-right: 10px;
+}
+
+.buttons {
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
 }
 </style>

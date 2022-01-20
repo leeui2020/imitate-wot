@@ -1,0 +1,23 @@
+.button {
+  color: #fff;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #a82216;
+  height: 60px;
+  width: 220px;
+}
+.button > img {
+  height: 50px;
+}
+.button > span {
+  font-size: 24px;
+  font-weight: bold;
+}
+.button + .button {
+  margin-left: 28px;
+}
+.button:hover {
+  filter: brightness(1.2);
+}
