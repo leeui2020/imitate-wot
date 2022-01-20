@@ -51,7 +51,7 @@
   display: flex;
   align-items: center;
 }
-.swiper-dot > div {
+.swiper-dot > a {
   width: 18px;
   height: 18px;
   box-sizing: border-box;
@@ -59,8 +59,9 @@
   position: relative;
   transform: rotate(45deg);
   cursor: pointer;
+  display: block;
 }
-.swiper-dot > div::before {
+.swiper-dot > a::before {
   content: '';
   top: 50%;
   left: 50%;
@@ -84,7 +85,7 @@
 .swiper-dot:last-child::after {
   display: none;
 }
-.swiper-dot.active > div::before,
-.swiper-dot > div:hover::before {
+.swiper-dot.active > a::before,
+.swiper-dot > a:hover::before {
   visibility: visible;
 }

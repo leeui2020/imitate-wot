@@ -40,7 +40,7 @@ export default Vue.extend({
 
     const dots = this.list.map((item, index) => (
       <div class={[style['swiper-dot'], index === this.currentIndex && style.active]}>
-        <div onClick={() => this.setCurrentIndex(index)}></div>
+        <a href="javascript:;" onClick={() => this.setCurrentIndex(index)} />
       </div>
     ))
 

@@ -25,6 +25,7 @@
     </div>
     <!-- 底部声明信息 -->
     <app-footer />
+    <app-code-poster />
   </div>
 </template>
 

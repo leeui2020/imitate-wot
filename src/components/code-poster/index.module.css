@@ -1,0 +1,6 @@
+.poster {
+  left: 10px;
+  bottom: 10px;
+  position: fixed;
+  display: block;
+}
